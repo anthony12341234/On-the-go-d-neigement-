@@ -13,61 +13,100 @@
             <img src="logo-on-the-go.png" alt="Logo On the Go Déneigement" style="max-width: 150px; margin: auto; display: block;">
         </div>
         <h1>On the Go Déneigement</h1>
-        <p>Votre solution hivernale rapide et fiable !</p>
+        <p class="tagline">Votre solution hivernale rapide et fiable !</p>
+        <nav class="navbar">
+            <a href="#about">À propos</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Témoignages</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
     <!-- Section Présentation -->
-    <section class="presentation">
-        <h2>À propos de nous</h2>
-        <p>Découvrez On the Go Déneigement, votre partenaire de confiance pour un hiver sans souci. Nous offrons des services professionnels pour répondre à tous vos besoins de déneigement.</p>
+    <section id="about" class="presentation">
+        <div class="container">
+            <h2>À propos de nous</h2>
+            <p>Découvrez <strong>On the Go Déneigement</strong>, votre partenaire de confiance pour un hiver sans souci. 
+               Nous offrons des solutions professionnelles et efficaces pour tous vos besoins de déneigement, avec un engagement envers la satisfaction de nos clients.</p>
+        </div>
     </section>
 
     <!-- Section Services -->
-    <section class="services">
-        <h2>Nos Services</h2>
-        <div class="service-list">
-            <div class="service">
-                <h3>Déneigement de stationnements</h3>
-                <p>Nettoyage efficace des parkings résidentiels et commerciaux.</p>
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="service-list">
+                <div class="service">
+                    <h3>Déneigement de stationnements</h3>
+                    <p>Nettoyage efficace des parkings résidentiels et commerciaux.</p>
+                </div>
+                <div class="service">
+                    <h3>Déneigement des entrées</h3>
+                    <p>Maintenez vos allées dégagées pour un accès facile.</p>
+                </div>
+                <div class="service">
+                    <h3>Déneigement de toitures</h3>
+                    <p>Protection contre les accumulations de neige dangereuses.</p>
+                </div>
+                <div class="service">
+                    <h3>Épandage de sel ou sable</h3>
+                    <p>Gardez vos surfaces sécurisées et sans glace.</p>
+                </div>
+                <div class="service">
+                    <h3>Service de déglaçage</h3>
+                    <p>Solutions rapides pour éliminer les surfaces glissantes.</p>
+                </div>
+                <div class="service">
+                    <h3>Services d'urgence</h3>
+                    <p>Interventions immédiates après les tempêtes de neige.</p>
+                </div>
             </div>
-            <div class="service">
-                <h3>Déneigement des entrées</h3>
-                <p>Maintenez vos allées dégagées pour un accès facile.</p>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Témoignages de nos clients</h2>
+            <div class="testimonial">
+                <p>"Un service incroyable, toujours à l'heure et très professionnel. Je recommande vivement !"</p>
+                <h4>- Jean Dupuis</h4>
             </div>
-            <div class="service">
-                <h3>Déneigement de toitures</h3>
-                <p>Protection contre les accumulations de neige dangereuses.</p>
-            </div>
-            <div class="service">
-                <h3>Épandage de sel ou sable</h3>
-                <p>Gardez vos surfaces sécurisées et sans glace.</p>
-            </div>
-            <div class="service">
-                <h3>Service de déglaçage</h3>
-                <p>Solutions rapides pour éliminer les surfaces glissantes.</p>
-            </div>
-            <div class="service">
-                <h3>Services d'urgence</h3>
-                <p>Interventions immédiates après les tempêtes de neige.</p>
+            <div class="testimonial">
+                <p>"Grâce à On the Go Déneigement, je n'ai jamais eu à m'inquiéter de ma cour cet hiver."</p>
+                <h4>- Marie Tremblay</h4>
             </div>
         </div>
     </section>
 
     <!-- Section Contact -->
     <section id="contact" class="contact">
-        <h2>Contactez-nous</h2>
-        <p>Appelez-nous au <strong>438 466-6794</strong> ou envoyez-nous un message via le formulaire ci-dessous :</p>
-        <form action="#" method="post">
-            <input type="text" name="nom" placeholder="Votre nom" required>
-            <input type="email" name="email" placeholder="Votre email" required>
-            <textarea name="message" placeholder="Votre message" required></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <p>Appelez-nous au <strong>438 466-6794</strong> ou envoyez-nous un message via le formulaire ci-dessous :</p>
+            <form action="#" method="post">
+                <input type="text" name="nom" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Section Call-to-Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Besoin de déneigement rapide ?</h2>
+            <p>Contactez-nous dès aujourd'hui et profitez d'un hiver sans soucis !</p>
+            <a href="#contact" class="btn">Demandez un devis gratuit</a>
+        </div>
     </section>
 
     <!-- Pied de page -->
     <footer class="footer">
-        <p>&copy; 2024 On the Go Déneigement | Tous droits réservés.</p>
+        <div class="container">
+            <p>&copy; 2024 On the Go Déneigement | Tous droits réservés.</p>
+        </div>
     </footer>
 </body>
 </html>
