@@ -7,18 +7,18 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #002a4d; /* Deep blue background */
-    color: #ffffff; /* White text for strong contrast */
+    background-color: #083858; /* Main deep blue background */
+    color: #ffffff; /* Bright text */
     -webkit-font-smoothing: antialiased;
 }
 
 /* Header Styles */
 .header {
-    background: #ff4500; /* Vibrant red/orange */
+    background: #01314d; /* Dark header background */
     color: #ffffff;
     text-align: center;
     padding: 30px 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .logo-container img {
     max-width: 120px;
@@ -26,32 +26,32 @@ body {
     margin: 0 auto;
 }
 .header h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
     margin: 15px 0;
-    letter-spacing: 2px;
+    color: #ffffff;
 }
 .header p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin: 10px 0;
-    color: #ffe6d5; /* Light accent for softer contrast */
+    color: #00bcd4; /* Accent color for the tagline */
 }
 .navbar {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .navbar a {
     color: #ffffff;
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 1.1rem;
+    margin: 0 10px;
+    font-size: 1rem;
     font-weight: bold;
     padding: 10px 15px;
     border: 2px solid transparent;
     transition: all 0.3s ease;
 }
 .navbar a:hover {
-    border: 2px solid #ffffff;
+    border: 2px solid #00bcd4;
     border-radius: 5px;
 }
 
@@ -62,7 +62,7 @@ section {
 }
 section h2 {
     font-size: 2.5rem;
-    color: #ff4500; /* Vibrant orange for headers */
+    color: #00bcd4; /* Accent color for headings */
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -70,18 +70,18 @@ section p {
     font-size: 1.3rem;
     margin: 20px auto;
     max-width: 800px;
-    color: #e6e6e6;
+    color: #ffffff;
 }
 
 /* Services Section */
 .services .service-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 40px;
+    gap: 30px;
     margin-top: 30px;
 }
 .services .service {
-    background: #003763; /* Strong blue for contrast */
+    background: #014d6b; /* Strong blue for contrast */
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -91,28 +91,28 @@ section p {
 }
 .services .service:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 8px 20px rgba(0, 188, 212, 0.4);
 }
 .services .service h3 {
-    font-size: 1.7rem;
-    color: #ff4500;
+    font-size: 1.5rem;
+    color: #00bcd4;
     margin-bottom: 15px;
     font-weight: bold;
 }
 .services .service p {
     font-size: 1rem;
-    color: #e6e6e6;
+    color: #ffffff;
 }
 
 /* Testimonials Section */
 .testimonials {
-    background: #003040; /* Dark greenish blue */
+    background: #012639; /* Darker blue for testimonials */
     padding: 60px 20px;
     color: #ffffff;
 }
 .testimonials .testimonial {
-    background: #004080; /* Slightly lighter than background */
-    border-left: 5px solid #ff4500;
+    background: #014d6b; /* Slightly lighter than testimonials section */
+    border-left: 5px solid #00bcd4;
     margin: 20px auto;
     padding: 20px 30px;
     max-width: 600px;
@@ -123,7 +123,7 @@ section p {
     text-align: right;
     margin-top: 10px;
     font-weight: bold;
-    color: #ff4500;
+    color: #00bcd4;
 }
 
 /* Contact Section */
@@ -138,19 +138,19 @@ section p {
     margin-bottom: 15px;
     padding: 15px;
     font-size: 1rem;
-    border: 1px solid #ff4500;
+    border: 1px solid #00bcd4;
     border-radius: 10px;
-    background: #002a4d;
+    background: #083858;
     color: #ffffff;
 }
 .contact input:focus,
 .contact textarea:focus {
     outline: none;
-    border-color: #ff4500;
-    box-shadow: 0 0 5px rgba(255, 69, 0, 0.5);
+    border-color: #00bcd4;
+    box-shadow: 0 0 5px rgba(0, 188, 212, 0.5);
 }
 .contact button {
-    background: #ff4500;
+    background: #00bcd4;
     color: #ffffff;
     border: none;
     padding: 15px;
@@ -160,13 +160,13 @@ section p {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 .contact button:hover {
-    background: #ff7f50;
+    background: #0288d1;
     transform: scale(1.05);
 }
 
 /* Call-to-Action Section */
 .cta {
-    background: #ff4500;
+    background: #00bcd4;
     color: #ffffff;
     padding: 60px 20px;
     text-align: center;
@@ -182,7 +182,7 @@ section p {
 }
 .cta .btn {
     background: #ffffff;
-    color: #ff4500;
+    color: #00bcd4;
     padding: 15px 30px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -190,14 +190,14 @@ section p {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 .cta .btn:hover {
-    background: #ff7f50;
+    background: #0288d1;
     color: #ffffff;
     transform: scale(1.1);
 }
 
 /* Footer Styles */
 .footer {
-    background: #002a4d;
+    background: #01314d;
     color: #ffffff;
     text-align: center;
     padding: 20px;
@@ -205,5 +205,5 @@ section p {
 }
 .footer p {
     margin: 0;
-    color: #ff4500;
+    color: #00bcd4;
 }
